@@ -1,15 +1,17 @@
 .App {
-  height: 100vh;
   width: 100vw;
   text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  border: 1px solid black;
+}
+.imageContainer {
+  height: 100%;
+  background-image: url('woodLightBackground.jpg');
+  height: 110vh;
 }
 .App__Header {
   top: 0;
-  border: 1px solid black;
 }
 .boxesContainer {
   display: flex;
@@ -17,39 +19,70 @@
   justify-content: center;
   align-items: center;
   align-self: center;
-  border: 1px solid black;
 }
 .mealDetails input {
   padding-left: 5px;
   display: block;
   height: 20px;
   margin: 5px auto;
-  border: 1px solid black;
   border-radius: 3px;
-}
-.customerCharges,
-.earnings {
   border: 1px solid black;
 }
-
 button {
   height: 20px;
-  border: 1px solid black;
   border-radius: 3px;
   margin: 0 5px;
+  border: 1px solid black;
 }
-
+main {
+  padding: 10px;
+  background-color: #f8f8ff;
+  border-radius: 3px;
+  margin: 0 20px;
+}
+hr {
+  border: 1.5px solid black;
+  margin: 5px 0;
+}
 .mealDetails {
   width: 50vw;
-  border: 1px solid black;
+  padding: 5px;
 }
 .rightContainer {
   width: 50vw;
-  border: 1px solid black;
+}
+.customerCharges,
+.earnings {
+  padding: 5px;
+  margin: 5px auto;
 }
 
-@media only screen and (min-width: 500px) {
+.mealDetails,
+.customerCharges,
+.earnings {
+  border: 2px dotted black;
+}
+
+@media only screen and (min-width: 768px) {
   .boxesContainer {
     flex-direction: row;
+  }
+  .App {
+    height: 100vh;
+  }
+  .App__Header {
+    padding: 10px;
+  }
+  .rightContainer,
+  .mealDetails {
+    margin: 0 5px;
+  }
+  .customerCharges,
+  .earnings {
+    margin: 10px 0;
+  }
+  main {
+    max-width: 1100px;
+    margin: auto auto;
   }
 }
