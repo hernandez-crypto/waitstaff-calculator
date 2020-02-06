@@ -31,9 +31,3 @@ h2,
 li {
   font-family: 'Slabo 27px', serif;
 }
-
-@media only screen and (min-width: 768px) {
-  body {
-    background-position: transg;
-  }
-}
