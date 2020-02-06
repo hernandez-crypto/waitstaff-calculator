@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/waitstaff-calculator/static/css/main.97356bc2.chunk.css",
+    "main.js": "/waitstaff-calculator/static/js/main.1ed23e55.chunk.js",
+    "main.js.map": "/waitstaff-calculator/static/js/main.1ed23e55.chunk.js.map",
+    "runtime-main.js": "/waitstaff-calculator/static/js/runtime-main.6965af91.js",
+    "runtime-main.js.map": "/waitstaff-calculator/static/js/runtime-main.6965af91.js.map",
+    "static/js/2.44076d33.chunk.js": "/waitstaff-calculator/static/js/2.44076d33.chunk.js",
+    "static/js/2.44076d33.chunk.js.map": "/waitstaff-calculator/static/js/2.44076d33.chunk.js.map",
+    "index.html": "/waitstaff-calculator/index.html",
+    "precache-manifest.52d79f207ee851c424fc3d8b92e5e13a.js": "/waitstaff-calculator/precache-manifest.52d79f207ee851c424fc3d8b92e5e13a.js",
+    "service-worker.js": "/waitstaff-calculator/service-worker.js",
+    "static/css/main.97356bc2.chunk.css.map": "/waitstaff-calculator/static/css/main.97356bc2.chunk.css.map",
+    "static/js/2.44076d33.chunk.js.LICENSE": "/waitstaff-calculator/static/js/2.44076d33.chunk.js.LICENSE",
+    "static/media/App.css": "/waitstaff-calculator/static/media/woodLightBackground.c2b60f3b.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6965af91.js",
+    "static/js/2.44076d33.chunk.js",
+    "static/css/main.97356bc2.chunk.css",
+    "static/js/main.1ed23e55.chunk.js"
+  ]
+}
